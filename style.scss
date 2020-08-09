@@ -1,0 +1,57 @@
+h1, h2 {
+  font-family: Lato;
+}
+
+.bookmark {
+  font-family: 'Lato';
+  a {
+    background-color: #fff;
+    position: relative;
+    padding: 12px 8px;
+    border-radius: 4px;
+    padding-left: 16 * 2px;
+    display: block;
+    text-decoration: none;
+    border: 1px solid #f0f0f0;
+    &:hover {
+      background-color: #f4f4f4;
+    }
+  }
+  .icon {
+    position: absolute;
+    top: 12px;
+    left: 8px;
+    max-width: 16px;
+    max-height: 16px;
+  }
+  .title {
+    color: #444;
+    margin: 0;
+    font-size: 14px;
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-decoration: none;
+    line-height: 16px;
+    margin-bottom: 4px;
+    font-weight: 300;
+  }
+  .desc {
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.35;
+    overflow: hidden;
+    max-height: 12px * 2 * 1.35;
+    text-decoration: none;
+    font-weight: 300;
+    color: #757575;
+  }
+  .url {
+    margin: 0;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 300;
+    color: #444;
+  }
+}
